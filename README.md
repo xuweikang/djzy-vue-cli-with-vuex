@@ -1,6 +1,6 @@
-# 大家健康
+# vue-project-cli-with-vuex
 
-> 
+>
 
 ## Build Setup
 
@@ -8,23 +8,21 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:3000
+npm start
+
+# build for develop
 npm run dev
 
+# build for develop with minification
+npm run dev@server
+
+# build for production
+npm run pro
+
 # build for production with minification
-npm run build
+npm run pro@Server
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
